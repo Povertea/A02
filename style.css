@@ -29,6 +29,12 @@ margin-right:10%;
 margin-bottom:5%;
 }
 
+.chessboard {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .row{
 position:relative;
 margin-left:10%;
@@ -56,7 +62,15 @@ clear:both;
 }
 
 #footer {
-border:solid 1px;
 padding: 10px;
 margin:10px;
+background-color:#62C2CE;
+display:flex;
+justify-content:center;
+align-items: center;
+
+}
+
+.footer-link {
+  display:flex;
 }
